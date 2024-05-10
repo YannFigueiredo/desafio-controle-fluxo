@@ -18,6 +18,8 @@ public class Contador {
         }catch(ParametrosInvalidosException e) {
             System.out.println("O segundo parâmetro deve ser maior que o primeiro.");
         }
+
+        scanner.close();
     }
 
     public static void contar(int primeiroParametro, int segundoParametro) throws ParametrosInvalidosException {
